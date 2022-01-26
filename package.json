@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js",
-    "start": "npm start"
+    "test": "jest",
+    "start": "node main.js"
   },
   "author": "davide",
   "license": "ISC",
