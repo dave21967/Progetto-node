@@ -10,6 +10,8 @@
   "author": "davide",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^14.3.2",
+    "express": "^4.17.1",
+    "serve": "^13.0.2"
   }
 }
