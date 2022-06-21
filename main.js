@@ -1,9 +1,12 @@
 var http = require("http");
 var websocket = require("ws");
+var express = require("express");
 var { v4 } = require("uuid");
 var { Room } = require("./Room");
-var server = http.createServer((req, resp) => {
-    
+var server = express();
+
+server.get("/", (req, resp) => {
+    return resp.send("<h1>Hello World!</h1>");
 });
 
 var  wss = new websocket.Server({server});
