@@ -66,6 +66,6 @@ wss.on("connection", (ws) => {
     });
 });
 
-server.listen(3000, () => {
+server.listen(3000 || process.env.PORT, () => {
     console.log("server starting");
 });
